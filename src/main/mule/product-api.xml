@@ -129,7 +129,7 @@ output application/json
   productID: "12345",
   productName: "Chinna MuleSoft Courses",
   productProider: "Udemi",
-  productDescription: "Complete mule developer course indepth"
+  productDescription: "Complete mule developer for beginners"
 }]]></ee:set-payload>
             </ee:message>
         </ee:transform>
