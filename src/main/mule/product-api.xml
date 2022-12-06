@@ -127,9 +127,9 @@ output application/json
 ---
 {
   productID: "12345",
-  productName: "Chinna MuleSoft Courses",
+  productName: "Chinna Mule Courses",
   productProider: "Udemi",
-  productDescription: "Complete mule developer for beginners"
+  productDescription: "Complete mule developer course indepth"
 }]]></ee:set-payload>
             </ee:message>
         </ee:transform>
