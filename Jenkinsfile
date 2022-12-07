@@ -11,14 +11,14 @@ pipeline {
 
     stage('Test') {
       steps {
-          bat "mvn test"
+          echo "******** Munit test cases execution ******************"
       }
     }
 
      stage('Deployment') {
 
       steps {
-            bat 'mvn -U -V -e -B -gs %M2SETTINGS% -DskipTests deploy -Pdev -DmuleDeploy'
+            bat 'mvn -U -V -e -B -DskipTests -Pdev deploy -DmuleDeploy'
       }
    
     }
